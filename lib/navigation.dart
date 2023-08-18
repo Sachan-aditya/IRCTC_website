@@ -580,7 +580,9 @@ class _NavigationState extends State<Navigation> {
                 width: 50,
               ),
               IconButton(
-                onPressed: () {},
+                onPressed: () {
+
+                },
                 icon: const Icon(
                   CupertinoIcons.wifi,
                   color: Colors.black,
@@ -654,80 +656,199 @@ class _NavigationState extends State<Navigation> {
                 const SizedBox(
                   width: 10,
                 ),
-                Image.network(
-                  'https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png',
-                  fit: BoxFit.cover,
-                  height: 40,
+                InkWell(
+                  onTap:()async {
+                const url = 'https://www.facebook.com/IRCTCofficial/';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child: Image.network(
+                    'https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png',
+                    fit: BoxFit.cover,
+                    height: 40,
+                  ),
                 ),
                 const SizedBox(
                   width: 5,
                 ),
+                   InkWell(
+                  onTap:()async {
+                const url = 'https://www.instagram.com/irctc.official/';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=512&id=Xy10Jcu1L2Su&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                 InkWell(
+                  onTap:()async {
+                const url = 'https://www.linkedin.com/company/irctc/?originalSubdomain=in';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=1x&id=13930&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
-                ),
+                ),InkWell(
+                  onTap:()async {
+                const url = 'https://www.youtube.com/c/IRCTCOFFICIAL';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=512&id=19318&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                InkWell(
+                  onTap:()async {
+                const url = 'https://hitelegram.com/telegram-channel/irctc-official/';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=512&id=63306&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                InkWell(
+                  onTap:()async {
+                const url = 'https://twitter.com/IRCTCofficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=512&id=111057&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                InkWell(
+                  onTap:()async {
+                const url = 'https://www.kooapp.com/profile/irctcofficial';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=1x&id=GFxsfkisnW2q&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                InkWell(
+                  onTap:()async {
+                const url = 'https://www.ecatering.irctc.co.in/blog/order-online-food-by-whatsapp-irctc-ecatering-new-service';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=1x&id=16713&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
                 const SizedBox(
                   width: 5,
                 ),
+                InkWell(
+                  onTap:()async {
+                const url = 'https://in.pinterest.com/irctcofficial/';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=1x&id=63676&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),),
+                 InkWell(
+                  onTap:()async {
+                const url = 'https://www.tumblr.com/irctcofficial';
+                // ignore: deprecated_member_use
+                if (await canLaunch(url)) {
+                  // ignore: deprecated_member_use
+                  await launch(url);
+                } else {
+                  throw 'Could not launch $url';
+                }
+              } ,
+                  child:
                 Image.network(
                   'https://img.icons8.com/?size=1x&id=98g89qGUZFsT&format=png',
                   fit: BoxFit.cover,
                   height: 40,
-                ),
+                ),)
               ]),
             ),
           ],
